@@ -110,7 +110,7 @@ router.post("/login", validateLogin, async (req, res) => {
   );
 
   res.cookie("token", token);
-  res.send("User login successful");
+  res.send("User successfully logged in");
 });
 
 module.exports = router;
